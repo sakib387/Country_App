@@ -1,0 +1,20 @@
+.contries{
+    padding:3rem;
+    display: grid;
+    gap:2rem;
+}
+@media screen and (min-width:768px) {
+    
+        .contries{
+            grid-template-columns: auto auto  ;
+        }
+        
+    }
+    
+    @media screen and (min-width:992px) {
+        
+        .contries{
+        grid-template-columns: auto auto auto;
+    }
+
+}
