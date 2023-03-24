@@ -37,6 +37,7 @@ function App() {
       countries.name.common!==name
     )
     setCountries(filted);
+    setmaindata(filted);
      
   }
   function findcountry(name){
