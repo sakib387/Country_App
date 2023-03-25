@@ -43,7 +43,7 @@ function App() {
   function findcountry(name){
    
     name=name.toLowerCase();
-    if(name.length==0){
+    if(name.length===0){
       setCountries(maindata);
     }
     else{
