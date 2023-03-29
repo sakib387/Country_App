@@ -1,0 +1,21 @@
+.country_card{
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    box-shadow: 5px 5px #222222;
+}
+.country_card img{
+    height: 250px;
+    border-radius: 15px;
+    width: 100%;
+    border: 1px solid black;
+}
+.country_card button{
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: rgb(39, 230, 255);
+}
+.country_card button:hover{
+    background-color: rgb(24, 255, 74);
+}
