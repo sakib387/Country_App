@@ -1,0 +1,14 @@
+.search_box{
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+.search_box input{
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(117, 117, 117);
+}
+.search_box input:hover{
+    border: 2px solid rgb(53, 53, 53);
+    color:aliceblue;
+}

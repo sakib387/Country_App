@@ -1,4 +1,5 @@
 import React from 'react'
+import './country.css'
  
 export default function country(props) {
     const {country}=props;
@@ -7,7 +8,7 @@ export default function country(props) {
       props.remove(name);
     }
   return (
-    <div  >
+    <div class="country_card">
         <img src={flags.png}></img>
         <h3>Name: {name.common}</h3>
         <h3>Population: {population}</h3>

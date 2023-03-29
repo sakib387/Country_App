@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './search.css'
 export default function Search(props) {
     const [txt,setTxt]=useState('');
     function handlechange(e){
@@ -8,8 +8,8 @@ export default function Search(props) {
         setTxt(e.target.value);
     }
   return (
-    <div style={{textAlign:"center"}}>
-        <input type="text" placeholder='Scarch country'
+    <div class="search_box">
+        <input type="text" placeholder=' Search country'
         value={txt}
         onChange={handlechange}
         />
